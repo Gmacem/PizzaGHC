@@ -52,9 +52,9 @@ int main() {
     cin.tie(0), cout.tie(0);
 
 #ifdef D_PROB
-    freopen("d_quite_big.in", "r", stdin);
+    freopen("../tests/d.in", "r", stdin);
 #elif E_PROB
-    freopen("e_quite_big.in", "r", stdin);
+    freopen("../tests/e.in", "r", stdin);
 #endif
     solve();
 }
